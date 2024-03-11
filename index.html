@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="queryNav.css" />
+    <link rel="stylesheet" href="query.css" />
+    <!--NAVBAR-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <!--END NAVBAR-->
+    <script defer src="script.js"></script>
+    <title>DJ</title>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <header class="header">
+      <h1>djCourse</h1>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#main">Home</a></li>
+          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li>
+            <a class="main-nav-link" href="#offert">Offert</a>
+          </li>
+          <li><a class="main-nav-link" href="#product">Product</a></li>
+          <li><a class="main-nav-link" href="#register">Register</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <!--MAIN-->
+    <div id="main" class="main">
+      <div class="titles">
+        <h1>DJ COURSE</h1>
+        <h2>Start to learn now</h2>
+      </div>
+    </div>
+
+    <!--INTRODUCTION-->
+    <div id="about" class="introduction">
+      <div class="text-intro">
+        <h3>what is about</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quas
+          voluptate ratione facere praesentium magni? Assumenda culpa quas,
+          tempora eum voluptate, dignissimos, repellendus tenetur earum
+          similique ipsam est odit mollitia.
+        </p>
+      </div>
+      <div class="video-intro">
+        <video src="img/speaking.mp4" controls>
+          <source src="img/speaking.mp4" type="video/mp4" />
+          <source src="img/speaking.mp4" type="video/ogg" />
+        </video>
+      </div>
+    </div>
+
+    <!--What you are going to learn-->
+    <div id="offert" class="content">
+      <div class="content-info">
+        <h4 class="content-title">Mixing</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem nemo
+          nesciunt, voluptas rerum totam voluptatum eaque mollitia consequatur
+          animi odit? Aspernatur laudantium nisi vero consectetur. Ex minus eos
+          itaque. Animi?
+        </p>
+      </div>
+      <div class="content-info">
+        <h4 class="content-title">production</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem nemo
+          nesciunt, voluptas rerum totam voluptatum eaque mollitia consequatur
+          animi odit? Aspernatur laudantium nisi vero consectetur. Ex minus eos
+          itaque. Animi?
+        </p>
+      </div>
+      <div class="content-info">
+        <h4 class="content-title">Selling</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem nemo
+          nesciunt, voluptas rerum totam voluptatum eaque mollitia consequatur
+          animi odit? Aspernatur laudantium nisi vero consectetur. Ex minus eos
+          itaque. Animi?
+        </p>
+      </div>
+    </div>
+
+    <!--OUR PRODUCT-->
+    <div id="product" class="our-product">
+      <h2 class="our-product">OUR PRODUCT</h2>
+      <div class="product">
+        <img src="./img/product.jpg" alt="Product photo" />
+        <button class="buy-now">BUY NOW</button>
+      </div>
+    </div>
+
+    <!--FORM-->
+    <div id="register" class="form-section">
+      <h4>For news letter or free material</h4>
+      <form action="#">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="firstname" placeholder="Name" />
+        <label for="lastname">Lastname: </label>
+        <input
+          type="text"
+          id="lastname"
+          name="surname"
+          placeholder="Last name"
+        />
+        <label for="email">Email: </label>
+        <input type="text" id="email" placeholder="Email" />
+        <input type="submit" class="submit" value="Submit" />
+      </form>
+    </div>
+    <!--CONTACT US-->
+    <div id="contact" class="footer">
+      <h3>For event, discounts and more follow us on our social media</h3>
+      <div class="icons">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </body>
+</html>

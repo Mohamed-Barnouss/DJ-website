@@ -1,0 +1,77 @@
+/*1552px*/
+@media (max-width: 97rem) {
+  .text-intro > p {
+    padding: 1rem;
+    font-size: 1.7rem;
+  }
+
+  .text-intro > h3 {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+/*1274px*/
+@media (max-width: 79.625rem) {
+  .text-intro > p {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .content-info > p {
+    font-size: 1.3rem;
+  }
+}
+
+/*1045px*/
+@media (max-width: 72.0625rem) {
+  .text-intro > p {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .introduction {
+    grid-template-columns: 1fr;
+  }
+
+  .video {
+    padding: 2rem;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*900px*/
+@media (max-width: 900px) {
+  .titles > h1 {
+    font-size: 5rem;
+  }
+
+  .title h2 {
+    font-size: 3rem;
+  }
+  .content-title {
+    font-size: 3rem;
+  }
+
+  .our-product > h2 {
+    font-size: 3rem;
+  }
+}
+
+/*650px*/
+
+@media (max-width: 40.625rem) {
+  input {
+    width: 20rem;
+  }
+
+  .footer > h3 {
+    font-size: 1.2rem;
+  }
+
+  .fa-brands {
+    font-size: 2rem;
+  }
+}
